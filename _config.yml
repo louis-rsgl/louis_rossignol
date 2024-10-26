@@ -2,12 +2,12 @@ title:              Louis Rossignol
 email:              louis.rossignol@mail.mcgill.ca
 description:        Research Website
 author:             Louis Rossignol
-baseurl:            "/louis_rossignol"
-url:                "https://louis_rsgl.github.io"
+baseurl:            "/louis_rossignol"  # Repository name for your GitHub Pages site
+url:                "https://louis-rsgl.github.io"  # Your GitHub Pages URL
 
 # Social Profiles
 github_username:    louis-rsgl
-linkedin_username:   https://www.linkedin.com/in/louis-rossignol-50a3001a6/
+linkedin_username:  https://www.linkedin.com/in/louis-rossignol-50a3001a6/
 
 # Build settings
 markdown:           kramdown
@@ -16,4 +16,4 @@ paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+  - jekyll-sitemap  # Generate sitemap for better SEO
